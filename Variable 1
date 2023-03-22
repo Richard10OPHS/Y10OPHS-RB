@@ -1,0 +1,36 @@
+email = "Richard@abc.co.uk"
+name = "Richard"
+console = "playstation 5 "
+age = 21
+price = 2.55
+
+#above are 2 variables 
+#one is called "email"
+#other is called "name"
+#both contain data 
+
+print(email)
+print(age)
+print(console)
+print(name)
+print(price)
+
+
+#Print is a function 
+#It displays text to the screen
+
+name = str(input("Enter name:"))
+
+print(name)
+
+age = int(input("Enter age:"))
+
+print(age)
+
+price =(input("Enter price:"))
+
+print(price)
+
+Postcode =(input("Enter Postcode"))
+
+print(Postcode)

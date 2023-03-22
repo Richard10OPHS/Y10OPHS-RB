@@ -1,9 +1,16 @@
-#Rules of variables 
+print("Welcome to Mad-Monkeys")
+print("Please attempt to answer the upcoming questions")
+print("")
 
-#1.Can NOT have a space 
-#2.Can NOT start with a number
-#3.Can end with a number 
-#4.Can contain an underscore
-#underscore is next to zero
+adjective1 = input("Enter an adjective e.g Fat/handsome>>>")
+nationality1 = input("Enter a nationality e.g Ghana/Somalia>>>")
+person1 = input("Enter a person e.g Richard>>>")
+person2 = input("Enter another person >>>")
+noun1 = input("Enter a thing e.g chicken/drumstick>>>")
 
-this_is_an_ok _variable = True
+print("")
+input("Are you sure? You can go back and reload the page?")
+print("Ok here is your paragraph")
+print("")
+
+print("There was a person named",person1,"from",nationality1,"who was going to their friend",person2,"'s house,But",person1,"decided to get",noun1,"then",person1,"made their way to",person2,"'s house.",person1,"got to the house and greeted their friend",person2," then",person2," wanted to play some fifa and",person1,"agreed.",person1,"chose liverpool and",person2,"chose man u and  the match result can to 7-0 then they went home")

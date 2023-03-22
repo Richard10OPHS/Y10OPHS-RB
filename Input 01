@@ -1,0 +1,16 @@
+
+name = str(input("Enter name:"))
+
+print(name)
+
+age = int(input("Enter age:"))
+
+print(age)
+
+price =(input("Enter price:"))
+
+print(price)
+
+Postcode =(input("Enter Postcode"))
+
+print(Postcode)

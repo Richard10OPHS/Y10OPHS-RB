@@ -13,4 +13,4 @@ input("Are you sure? You can go back and reload the page?")
 print("Ok here is your paragraph")
 print("")
 
-print("There was a person named",person1,"from",nationality1,"who was going to their friend",person2,"'s house,But",person1,"decided to get",noun1,"then",person1,"made their way to",person2,"'s house.",person1,"got to the house and greeted their friend",person2," then",person2," wanted to play some fifa and",person1,"agreed.",person1,"chose liverpool and",person2,"chose man u and  the match result can to 7-0 then they went home")
+print("There was a",adjective1,"person named",person1,"from",nationality1,"who was going to their friend",person2,"'s house,But",person1,"decided to get",noun1,"then",person1,"made their way to",person2,"'s house.",person1,"got to the house and greeted their friend",person2," then",person2," wanted to play some fifa and",person1,"agreed.",person1,"chose liverpool and",person2,"chose man u and  the match result can to 7-0 then they went home.")

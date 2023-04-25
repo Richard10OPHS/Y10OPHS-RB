@@ -1,0 +1,4 @@
+Name = str(input("Enter your name: "))
+Num = int(input("Enter a number: "))
+for I in range(Num):
+   print(Name)

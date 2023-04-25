@@ -1,0 +1,2 @@
+for singleletter in "pneumonoultramicroscopicsilicovolcanoconiosis":
+  print(singleletter)

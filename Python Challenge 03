@@ -1,0 +1,6 @@
+Width=int(input("Enter a number: "))
+Height= int(input("Enter another number: "))
+
+Area= Width*Height
+
+print("The Area is",Area)

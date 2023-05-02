@@ -1,0 +1,8 @@
+Num1= int(input("Enter a number: ")) 
+Num2= int(input("Enter another number: "))
+
+Final= Num1+Num2
+
+Average =Final/2 
+
+print(Average)

@@ -1,0 +1,7 @@
+Name= str(input("Enter your name: "))
+Mine= "Richard"
+
+if Mine==Name:
+  print("You're cool")
+
+print("Nice to meet you")

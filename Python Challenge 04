@@ -1,0 +1,6 @@
+Num1= int(input("Enter a number: "))
+Num2=int(input("Enter another number: "))
+
+Result=Num1/Num2
+
+print("AND THE RESULTTTTTTT..isssss",Result)

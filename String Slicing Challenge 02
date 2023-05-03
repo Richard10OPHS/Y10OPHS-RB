@@ -1,0 +1,9 @@
+Name=str(input("Enter your first name: "))
+ 
+Name2=str(input("Enter your last name: "))
+
+Name3=Name+" "+Name2
+length=Name3
+
+print(Name3)
+print(len(length))

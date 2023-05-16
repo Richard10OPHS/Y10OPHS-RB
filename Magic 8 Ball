@@ -1,0 +1,53 @@
+# Import the modules
+import sys
+import random
+
+ans = True
+
+while ans:
+    question = input("Ask the magic 8 ball a question: (press enter to quit) >>> ")
+    
+    answers = random.randint(1,13)
+    
+    if question == "":
+        print("It was fun while it lasted")
+        sys.exit()
+    
+    elif answers == 1:
+        print ("Most likely")
+    
+    elif answers == 2:
+        print ("Yes in due time")
+    
+    elif answers == 3:
+        print ("You will have to wait")
+    
+    elif answers == 4:
+        print ("Ask again later")
+    
+    elif answers == 5:
+        print ("My sources say no")
+    
+    elif answers == 6:
+        print ("Go for it!")
+    
+    elif answers == 7:
+        print ("Are you kidding?")
+    
+    elif answers == 8:
+        print ("My sources say no")
+        
+    elif answers == 9:
+        print ("Very doubtful")
+        
+    elif answers == 10:
+        print ("Cannot pedict now")
+        
+    elif answers == 11:
+        print ("As i see it, yes")
+        
+    elif answers == 12:
+        print ("My reply is no")
+        
+    elif answers == 13:
+        print ("Don't bet on it")

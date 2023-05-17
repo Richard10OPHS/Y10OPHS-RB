@@ -1,0 +1,20 @@
+#1D array or Lists explained
+#Below is a List
+
+Inventory =["Chicken","Kfc","Kebabs"]
+print(Inventory) #Prints whole list
+print(Inventory)[0] #Indexing
+print(Inventory[1]) #Displays different index
+print(Inventory)[1:2] #Displays specific index
+
+#Appending to a list
+
+x= "abc"#New item
+
+Inventory.append(x)
+print(Inventory)#print list
+
+z = str(input("Enter an item:"))
+Inventory.append(z)#append new item to list
+print(Inventory)#print list
+

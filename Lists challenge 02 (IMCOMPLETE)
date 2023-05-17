@@ -1,0 +1,7 @@
+cars = []
+
+Enter= "T"
+
+while Enter == "T":
+  str(input("Enter a car brand or press "))
+  

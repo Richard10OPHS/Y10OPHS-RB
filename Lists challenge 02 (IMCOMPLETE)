@@ -1,7 +1,7 @@
 cars = []
 
-Enter= "T"
+x = "T"
 
-while Enter == "T":
+while x == "T":
   str(input("Enter a car brand or press "))
   

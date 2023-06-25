@@ -6,11 +6,11 @@ adjective1 = input("Enter an adjective e.g Fat/handsome>>>")
 nationality1 = input("Enter a nationality e.g Ghana/Somalia>>>")
 person1 = input("Enter a person e.g Richard>>>")
 person2 = input("Enter another person >>>")
-noun1 = input("Enter a thing e.g chicken/drumstick>>>")
+noun1 = input("Enter a thing e.g a chicken/ a drumstick>>>")
 
 print("")
 input("Are you sure? You can go back and reload the page?")
 print("Ok here is your paragraph")
 print("")
 
-print("There was a",adjective1,"person named",person1,"from",nationality1,"who was going to their friend",person2,"'s house,But",person1,"decided to get a",noun1,"then",person1,"made their way to",person2,"'s house.",person1,"got to the house and greeted their friend",person2," then",person2," wanted to play some fifa and",person1,"agreed.",person1,"chose liverpool and",person2,"chose man u and  the match result can to 7-0 then they went home.")
+print("There was a",adjective1," person named",person1, "from",nationality1," who was going to their friend",person2,"'s house, But",person1," decided to get a",noun1, "then",person1,"made their way to",person2,"'s house.",person1,"got to the house and greeted their friend",person2," then",person2," wanted to play some fifa and",person1,"agreed.",person1,"chose liverpool and",person2,"chose man u and  the match result ended as 7 to",person1,"and 0 to",person2,"then they said goodbye to each other and made their way home after the game.")

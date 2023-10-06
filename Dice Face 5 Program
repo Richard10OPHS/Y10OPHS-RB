@@ -1,0 +1,13 @@
+# Dice face 5 program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def output5():
+  print("Google")
+    
+
+# -------------------------
+# Main program
+# -------------------------
+output5()

@@ -1,0 +1,6 @@
+Number1 = int(input("What is the first number?"))
+Number2 = int(input("What is the second number?"))
+Sum = Number1 + Number2
+Product = Number1 * Number2
+print (" The sum of ", Number1, "and ", Number2, " is ", Sum)
+print ( "The product of ", Number1, " and ", Number2,  "is ", Product)

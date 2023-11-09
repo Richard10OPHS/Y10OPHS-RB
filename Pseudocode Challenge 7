@@ -1,0 +1,5 @@
+Distance= int(input("Please enter a distance in metres"))
+Time= int(input("Please enter a time in seconds"))
+Speed= Distance/Time
+
+print("The Average speed is",Speed)

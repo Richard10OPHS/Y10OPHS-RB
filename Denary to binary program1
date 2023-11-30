@@ -1,0 +1,40 @@
+# Denary to binary program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def den_to_bin(number):
+    binary = ""
+    while number > 0:
+        remainder = number % 2
+        binary = str(remainder) + binary
+        number = number // 2
+    return binary
+def hexadigit (value):
+# returns a string with a character for the hexadecimal digit representing the integer value. 
+# value should be between 10 and 15 inclusive.
+    return chr (ord('A') + value - 10)
+def den_to_b5(number):
+  b5=""
+  while number >0:
+    remainder = number % 5
+    b5=str(remainder) +b5
+    number = number // 5
+  return b5
+
+
+def den_to_b12 (number):
+  b12 = ""
+  while number > 0:
+    remainder = number % 12
+    if remainder > 9 :
+      b12 = hexadigit(remainder)+b12
+    else :
+      b12 = str(remainder) + b12
+    number = number // 12
+  return b12
+# -------------------------
+# Main program
+# -------------------------
+number = int(input("Enter the denary number to convert: "))
+print("Binary:", den_to_bin(number))

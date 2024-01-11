@@ -1,0 +1,8 @@
+A=int(input("Enter a number"))
+B=int(input("Enter another number"))
+
+if A>B:
+  print(B,A)
+
+else:
+  print(A,B)

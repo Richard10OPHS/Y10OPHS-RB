@@ -6,3 +6,13 @@ if A>B:
 
 else:
   print(A,B)
+
+Num=int(input("Enter the following numbers 1,2 or 3?"))
+if Num==1:
+  print("Thank you!")
+if Num==2:
+  print("Well Done!")
+if Num==3:
+  print("Correct!")
+else:
+  print("Error Message")

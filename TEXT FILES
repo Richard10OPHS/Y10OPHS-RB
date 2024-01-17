@@ -1,0 +1,44 @@
+Text file challenges:
+Code snippets .
+Read a single line from a text file
+1
+2
+3
+file = open(&quot;quick.txt&quot;,&quot;r&quot;)
+print(file.readline()) # read a single line and add \n
+Iterate over a text file
+1
+2
+3
+4
+file = open(&quot;quick.txt&quot;,&quot;r&quot;)
+for line in file:
+print(line)
+Iterate over a text file AND strip the \n
+1
+2
+3
+4
+file = open(&quot;quick.txt&quot;,&quot;r&quot;)
+for line in file:
+print(line.strip())
+Read all the lines from a text file and place into a list, includes the \n
+1
+2
+3
+file = open(&quot;quick.txt&quot;,&quot;r&quot;)
+quicklist = file.readlines()
+Populates a list with each line from a text file and strips the \n
+1
+2
+3
+4
+5
+6
+7
+8
+file = open(&quot;quick.txt&quot;,&quot;r&quot;)
+quicklist = []
+for line in file:
+quicklist.append(line.strip())
+print(quicklist)

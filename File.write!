@@ -1,0 +1,3 @@
+file = open("romeojuliet.txt","a")
+file.write("FAIR IS FOUL AND FOUL IS FAIR HOVER THROUGH THE DARK BLACK AIR")
+file.close()
